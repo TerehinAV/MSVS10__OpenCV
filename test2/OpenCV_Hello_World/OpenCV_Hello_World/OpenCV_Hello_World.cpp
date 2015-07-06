@@ -2,7 +2,6 @@
 //
 
 #include "stdafx.h"
-#include "myfunctions_h.h"
 
 #include <cv.h>
 #include <cxcore.h>
@@ -22,8 +21,9 @@ int _tmain(int argc, _TCHAR* argv[])
         exit(0);
     }
 	IplImage* gray = cvCreateImage(cvGetSize(src), IPL_DEPTH_8U, 1);
-	//cvCvtColor(src, gray, CV_BGR2GRAY);
-	cvCvtColor(smooth, gray, CV_BGR2GRAY);
+	
+	//cvCvtColor(src, gray, CV_BGR2GRAY); // преобразование в полутон исходного изображения
+	cvCvtColor(smooth, gray, CV_BGR2GRAY); // преобразование в полутон размытого изображения
 
 	IplImage* bin = cvCreateImage(cvGetSize(src), IPL_DEPTH_8U, 1);
 	cvThreshold(gray, bin, 50, 250, CV_THRESH_OTSU);
