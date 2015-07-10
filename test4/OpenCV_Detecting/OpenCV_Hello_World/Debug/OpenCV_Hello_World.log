@@ -1,0 +1,21 @@
+﻿Сборка начата 10.07.2015 9:25:08.
+     1>Проект "E:\Proj\OPENCV_REP\MSVS10__OpenCV\test4\OpenCV_Detecting\OpenCV_Hello_World\OpenCV_Hello_World.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\OpenCV_Hello_World.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         Для всех выходных данных обновления не требуется.
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         Для всех выходных данных обновления не требуется.
+       Manifest:
+         Для всех выходных данных обновления не требуется.
+       FinalizeBuildStatus:
+         Файл "Debug\OpenCV_Hello_World.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\OpenCV_Hello_World.lastbuildstate".
+     1>Построение проекта "E:\Proj\OPENCV_REP\MSVS10__OpenCV\test4\OpenCV_Detecting\OpenCV_Hello_World\OpenCV_Hello_World.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.05
