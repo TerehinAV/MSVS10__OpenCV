@@ -1,0 +1,37 @@
+﻿Сборка начата 13.07.2015 11:11:18.
+     1>Проект "E:\Proj\OPENCV_REP\MSVS10__OpenCV\test4_\WF32_OpenCV\WF32_OpenCV\WF32_OpenCV.vcxproj" в узле 2 (целевые объекты build).
+     1>PrepareForBuild:
+         Создание каталога "E:\Proj\OPENCV_REP\MSVS10__OpenCV\test4_\WF32_OpenCV\Debug\".
+       InitializeBuildStatus:
+         Создание "Debug\WF32_OpenCV.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\WF32_OpenCV.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\WF32_OpenCV.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt WF32_OpenCV.cpp
+         WF32_OpenCV.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\WF32_OpenCV.res" WF32_OpenCV.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\WF32_OpenCV.exe.embed.manifest.res" Debug\WF32_OpenCV_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Proj\OPENCV_REP\MSVS10__OpenCV\test4_\WF32_OpenCV\Debug\WF32_OpenCV.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\WF32_OpenCV.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Proj\OPENCV_REP\MSVS10__OpenCV\test4_\WF32_OpenCV\Debug\WF32_OpenCV.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Proj\OPENCV_REP\MSVS10__OpenCV\test4_\WF32_OpenCV\Debug\WF32_OpenCV.lib" /MACHINE:X86 Debug\WF32_OpenCV.res
+         Debug\WF32_OpenCV.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\WF32_OpenCV.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\WF32_OpenCV.exe.embed.manifest" /manifest Debug\WF32_OpenCV.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\WF32_OpenCV.exe.embed.manifest.res" Debug\WF32_OpenCV_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Proj\OPENCV_REP\MSVS10__OpenCV\test4_\WF32_OpenCV\Debug\WF32_OpenCV.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\WF32_OpenCV.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Proj\OPENCV_REP\MSVS10__OpenCV\test4_\WF32_OpenCV\Debug\WF32_OpenCV.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Proj\OPENCV_REP\MSVS10__OpenCV\test4_\WF32_OpenCV\Debug\WF32_OpenCV.lib" /MACHINE:X86 Debug\WF32_OpenCV.res
+         Debug\WF32_OpenCV.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\WF32_OpenCV.obj
+         WF32_OpenCV.vcxproj -> E:\Proj\OPENCV_REP\MSVS10__OpenCV\test4_\WF32_OpenCV\Debug\WF32_OpenCV.exe
+       FinalizeBuildStatus:
+         Файл "Debug\WF32_OpenCV.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\WF32_OpenCV.lastbuildstate".
+     1>Построение проекта "E:\Proj\OPENCV_REP\MSVS10__OpenCV\test4_\WF32_OpenCV\WF32_OpenCV\WF32_OpenCV.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.48

@@ -43,6 +43,8 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>C:\opencv2410\opencv\build\include\opencv;C:\opencv2410\opencv\build\include\;$(IncludePath)</IncludePath>
     <LibraryPath>C:\opencv2410\opencv\build\x86\vc10\lib\;$(LibraryPath)</LibraryPath>
+    <SourcePath>$(SourcePath)</SourcePath>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>

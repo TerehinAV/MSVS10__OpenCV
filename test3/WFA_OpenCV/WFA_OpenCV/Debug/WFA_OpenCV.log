@@ -1,4 +1,4 @@
-﻿Сборка начата 06.07.2015 11:27:21.
+﻿Сборка начата 13.07.2015 11:16:25.
      1>Проект "E:\Proj\OPENCV_REP\MSVS10__OpenCV\test3\WFA_OpenCV\WFA_OpenCV\WFA_OpenCV.vcxproj" в узле 2 (целевые объекты build).
      1>InitializeBuildStatus:
          Обращение к "Debug\WFA_OpenCV.unsuccessfulbuild".
@@ -6,7 +6,8 @@
        Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
        ClCompile:
          Для всех выходных данных обновления не требуется.
-         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\WFA_OpenCV.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt WFA_OpenCV.cpp /clr:nostdlib 
+         WFA_OpenCV.cpp
          Для всех выходных данных обновления не требуется.
        CoreResGen:
          Отсутствуют ресурсы, устаревшие по отношению к файлам своих источников. Пропуск формирования ресурсов.
@@ -18,21 +19,14 @@
          Debug\stdafx.obj
          Debug\WFA_OpenCV.obj
          "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
-     1>WFA_OpenCV.obj : error LNK2001: неразрешенный внешний символ ""public: virtual void __thiscall cv::HOGDescriptor::setSVMDetector(class cv::_InputArray const &)" (?setSVMDetector@HOGDescriptor@cv@@UAEXABV_InputArray@2@@Z)"
-     1>WFA_OpenCV.obj : error LNK2001: неразрешенный внешний символ ""public: virtual bool __thiscall cv::HOGDescriptor::read(class cv::FileNode &)" (?read@HOGDescriptor@cv@@UAE_NAAVFileNode@2@@Z)"
-     1>WFA_OpenCV.obj : error LNK2001: неразрешенный внешний символ ""public: virtual void __thiscall cv::HOGDescriptor::write(class cv::FileStorage &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const " (?write@HOGDescriptor@cv@@UBEXAAVFileStorage@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)"
-     1>WFA_OpenCV.obj : error LNK2001: неразрешенный внешний символ ""public: virtual bool __thiscall cv::HOGDescriptor::load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?load@HOGDescriptor@cv@@UAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)"
-     1>WFA_OpenCV.obj : error LNK2001: неразрешенный внешний символ ""public: virtual void __thiscall cv::HOGDescriptor::save(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const " (?save@HOGDescriptor@cv@@UBEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)"
-     1>WFA_OpenCV.obj : error LNK2001: неразрешенный внешний символ ""public: virtual void __thiscall cv::HOGDescriptor::copyTo(struct cv::HOGDescriptor &)const " (?copyTo@HOGDescriptor@cv@@UBEXAAU12@@Z)"
-     1>WFA_OpenCV.obj : error LNK2001: неразрешенный внешний символ ""public: virtual void __thiscall cv::HOGDescriptor::compute(class cv::Mat const &,class std::vector<float,class std::allocator<float> > &,class cv::Size_<int>,class cv::Size_<int>,class std::vector<class cv::Point_<int>,class std::allocator<class cv::Point_<int> > > const &)const " (?compute@HOGDescriptor@cv@@UBEXABVMat@2@AAV?$vector@MV?$allocator@M@std@@@std@@V?$Size_@H@2@2ABV?$vector@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@5@@Z)"
-     1>WFA_OpenCV.obj : error LNK2001: неразрешенный внешний символ ""public: virtual void __thiscall cv::HOGDescriptor::detect(class cv::Mat const &,class std::vector<class cv::Point_<int>,class std::allocator<class cv::Point_<int> > > &,double,class cv::Size_<int>,class cv::Size_<int>,class std::vector<class cv::Point_<int>,class std::allocator<class cv::Point_<int> > > const &)const " (?detect@HOGDescriptor@cv@@UBEXABVMat@2@AAV?$vector@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@NV?$Size_@H@2@2ABV45@@Z)"
-     1>WFA_OpenCV.obj : error LNK2001: неразрешенный внешний символ ""public: virtual void __thiscall cv::HOGDescriptor::detect(class cv::Mat const &,class std::vector<class cv::Point_<int>,class std::allocator<class cv::Point_<int> > > &,class std::vector<double,class std::allocator<double> > &,double,class cv::Size_<int>,class cv::Size_<int>,class std::vector<class cv::Point_<int>,class std::allocator<class cv::Point_<int> > > const &)const " (?detect@HOGDescriptor@cv@@UBEXABVMat@2@AAV?$vector@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@AAV?$vector@NV?$allocator@N@std@@@5@NV?$Size_@H@2@3ABV45@@Z)"
-     1>WFA_OpenCV.obj : error LNK2001: неразрешенный внешний символ ""public: virtual void __thiscall cv::HOGDescriptor::detectMultiScale(class cv::Mat const &,class std::vector<class cv::Rect_<int>,class std::allocator<class cv::Rect_<int> > > &,double,class cv::Size_<int>,class cv::Size_<int>,double,double,bool)const " (?detectMultiScale@HOGDescriptor@cv@@UBEXABVMat@2@AAV?$vector@V?$Rect_@H@cv@@V?$allocator@V?$Rect_@H@cv@@@std@@@std@@NV?$Size_@H@2@2NN_N@Z)"
-     1>WFA_OpenCV.obj : error LNK2001: неразрешенный внешний символ ""public: virtual void __thiscall cv::HOGDescriptor::detectMultiScale(class cv::Mat const &,class std::vector<class cv::Rect_<int>,class std::allocator<class cv::Rect_<int> > > &,class std::vector<double,class std::allocator<double> > &,double,class cv::Size_<int>,class cv::Size_<int>,double,double,bool)const " (?detectMultiScale@HOGDescriptor@cv@@UBEXABVMat@2@AAV?$vector@V?$Rect_@H@cv@@V?$allocator@V?$Rect_@H@cv@@@std@@@std@@AAV?$vector@NV?$allocator@N@std@@@5@NV?$Size_@H@2@3NN_N@Z)"
-     1>WFA_OpenCV.obj : error LNK2001: неразрешенный внешний символ ""public: virtual void __thiscall cv::HOGDescriptor::computeGradient(class cv::Mat const &,class cv::Mat &,class cv::Mat &,class cv::Size_<int>,class cv::Size_<int>)const " (?computeGradient@HOGDescriptor@cv@@UBEXABVMat@2@AAV32@1V?$Size_@H@2@2@Z)"
-     1>E:\Proj\OPENCV_REP\MSVS10__OpenCV\test3\WFA_OpenCV\Debug\WFA_OpenCV.exe : fatal error LNK1120: 12 неразрешенных внешних элементов
-     1>Построение проекта "E:\Proj\OPENCV_REP\MSVS10__OpenCV\test3\WFA_OpenCV\WFA_OpenCV\WFA_OpenCV.vcxproj" завершено (целевые объекты build) с ошибкой.
+         WFA_OpenCV.vcxproj -> E:\Proj\OPENCV_REP\MSVS10__OpenCV\test3\WFA_OpenCV\Debug\WFA_OpenCV.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Proj\OPENCV_REP\MSVS10__OpenCV\test3\WFA_OpenCV\Debug\WFA_OpenCV.exe;#1" /manifest Debug\WFA_OpenCV.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\WFA_OpenCV.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\WFA_OpenCV.lastbuildstate".
+     1>Построение проекта "E:\Proj\OPENCV_REP\MSVS10__OpenCV\test3\WFA_OpenCV\WFA_OpenCV\WFA_OpenCV.vcxproj" завершено (целевые объекты build).
 
-СБОЙ построения.
+Построение успешно завершено.
 
-Затраченное время: 00:00:00.37
+Затраченное время: 00:00:01.69

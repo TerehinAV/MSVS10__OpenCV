@@ -3,6 +3,7 @@
 #include "stdafx.h"
 #include "Form1.h"
 
+
 using namespace WFA_OpenCV;
 
 [STAThreadAttribute]

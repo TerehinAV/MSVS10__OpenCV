@@ -1,0 +1,29 @@
+﻿Сборка начата 23.07.2015 11:42:46.
+     1>Проект "E:\Proj\OPENCV_REP\MSVS10__OpenCV\test2\OpenCV_Contours\OpenCV_Hello_World\OpenCV_Hello_World.vcxproj" в узле 2 (целевые объекты build).
+     1>PrepareForBuild:
+         Создание каталога "E:\Proj\OPENCV_REP\MSVS10__OpenCV\test2\OpenCV_Contours\Release\".
+       InitializeBuildStatus:
+         Создание "Release\OpenCV_Hello_World.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\OpenCV_Hello_World.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\OpenCV_Hello_World.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt OpenCV_Hello_World.cpp
+         OpenCV_Hello_World.cpp
+     1>c:\opencv2410\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Proj\OPENCV_REP\MSVS10__OpenCV\test2\OpenCV_Contours\Release\OpenCV_Hello_World.exe" /INCREMENTAL:NO /NOLOGO opencv_core2410.lib opencv_imgproc2410.lib opencv_highgui2410.lib opencv_ml2410.lib opencv_video2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\OpenCV_Hello_World.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Proj\OPENCV_REP\MSVS10__OpenCV\test2\OpenCV_Contours\Release\OpenCV_Hello_World.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Proj\OPENCV_REP\MSVS10__OpenCV\test2\OpenCV_Contours\Release\OpenCV_Hello_World.lib" /MACHINE:X86 Release\OpenCV_Hello_World.obj
+         Release\stdafx.obj
+         Создание кода
+         Создание кода завершено
+         OpenCV_Hello_World.vcxproj -> E:\Proj\OPENCV_REP\MSVS10__OpenCV\test2\OpenCV_Contours\Release\OpenCV_Hello_World.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Proj\OPENCV_REP\MSVS10__OpenCV\test2\OpenCV_Contours\Release\OpenCV_Hello_World.exe;#1" /manifest Release\OpenCV_Hello_World.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Release\OpenCV_Hello_World.unsuccessfulbuild" удаляется.
+         Обращение к "Release\OpenCV_Hello_World.lastbuildstate".
+     1>Построение проекта "E:\Proj\OPENCV_REP\MSVS10__OpenCV\test2\OpenCV_Contours\OpenCV_Hello_World\OpenCV_Hello_World.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.53
