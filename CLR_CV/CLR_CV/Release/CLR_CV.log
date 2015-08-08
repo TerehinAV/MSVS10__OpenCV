@@ -1,0 +1,18 @@
+﻿Сборка начата 08.08.2015 15:14:30.
+     1>Проект "F:\work_folder\GIT_REPOSITORY\CLR_CV\CLR_CV\CLR_CV.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib mainform.cpp
+         mainform.cpp
+     1>f:\work_folder\git_repository\clr_cv\clr_cv\mainform.h(519): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>f:\work_folder\git_repository\clr_cv\clr_cv\mainform.h(521): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>f:\work_folder\git_repository\clr_cv\clr_cv\mainform.h(606): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+     1>mainform.cpp(7): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\work_folder\GIT_REPOSITORY\CLR_CV\Release\CLR_CV.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\CLR_CV.mainform.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\work_folder\GIT_REPOSITORY\CLR_CV\Release\CLR_CV.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\mainform.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         CLR_CV.vcxproj -> F:\work_folder\GIT_REPOSITORY\CLR_CV\Release\CLR_CV.exe
+     1>Сборка проекта "F:\work_folder\GIT_REPOSITORY\CLR_CV\CLR_CV\CLR_CV.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.88
